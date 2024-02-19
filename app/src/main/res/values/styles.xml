@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.App" parent="Theme.Material3.Dark.NoActionBar">
+        ...
+        <item name="colorSecondary">@color/material_dynamic_secondary20</item>
+        <item name="colorSurface">@color/material_on_surface_stroke</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_light_outlineVariant</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.MediumComponent</item>
+    </style>
+
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+</resources>
